@@ -1,4 +1,11 @@
 # C-List
+This is a C implementation of an dynamic array of data.
+It works similar to java list, the main goal is to provide an easy to use dynamic array storing
+You can store any type of variable in the list, just need to cast when you want to use it. 
+Eg.
+```c
+(const char *)list_get(list, i);
+```
 
 ### Sample
 ```c
