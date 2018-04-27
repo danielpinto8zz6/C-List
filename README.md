@@ -29,13 +29,9 @@
   list_destroy(list);
 ```
 
-```c
-typedef struct _List {
-  void **items; /** Array of pointers **/
-  int size;     /** Number of elements in the array **/
-  int capacity; /** Capacity of the array **/
-} List;
+### All functions
 
+```c
 /**
  * @brief  Inserts the specified item at the specified position in the specified
  * list
@@ -45,7 +41,7 @@ typedef struct _List {
  * @param  *item: item to be inserted
  * @retval true if succeed, false otherwise
  */
-// bool list_add_at(List *list, int index, void *item);
+bool list_add_at(List *list, int index, void *item);
 
 /**
  * @brief  Appends the specified item to the end of the specified list
