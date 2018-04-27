@@ -1,7 +1,7 @@
 # C-List
 
 ### Sample
-```
+```c
   List *list = list_new();
 
   list_add(list, "one");
